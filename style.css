@@ -1,1 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap);
+
+* {
+  box-sizing: border-box;
+}
+
+#description {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.head {
+  text-align: center;
+  padding: 0 0 0.625rem;
+  margin: 1rem auto 0 auto;
+}
+
+body {
+  text-align: center;
+  color: white;
+  font-family: Spartan;
+  background-image: url(https://wallpaperaccess.com/full/2825711.gif);
+}
+
+/* Style within the form */
+form {
+  background-color: #809eba;
+  background-size: cover;
+  background-position: center;
+  width: max-content;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: left;
+}
+
+@media (min-width: 400px) {
+  form {
+    padding: 0.5rem 2rem;
+  }
+}
+.form-tab {
+  margin: 1.5rem auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+p {
+  display: block;
+}
+
+input {
+  border-radius: 2px;
+}
 
