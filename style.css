@@ -56,3 +56,55 @@ input {
   border-radius: 2px;
 }
 
+
+
+/* Menu Container */
+.container {
+  background: #fcfcfc;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  font-family: Arial Black;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  text-align: right;
+
+  overflow: hidden;
+}
+.container:hover {
+  width: 200px;
+  height: 230px;
+}
+/* Menu Icon */
+.icon {
+  float: left;
+  color: #434663;
+  margin-top: 0px;
+}
+
+/* Links */
+ul {
+  list-style-type: none;
+  margin-top: -20px;
+}
+/* Link Decroation */
+li {
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  margin-left: 10px;
+  color: #434663;
+}
+
+text-decoration-color: #434663;
+color: #434663;
+border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+display: block;
+padding: 5px;
+-moz-transition: all 
+li a:hover {
+  font-size: 50px;
+  color: #434663;
+  background-color: #434663;
+}
