@@ -19,23 +19,8 @@ body {
   text-align: center;
   color: #434663;
   font-family: Spartan;
-  background-image: url(https://wallpaperaccess.com/full/2825711.gif);
-  background-clip: padding-box;
-}
 
-/* Style within the form */
-form {
-  background-color: #809eba;
-  background-size: cover;
-  background-position: center;
-  width: max-content;
-  margin: 0 auto;
-  border-style: solid;
-  border-radius: 10px;
-  text-align: left;
-}
-
-@media (min-width: 400px) {
+ {
   form {
     padding: 0.5rem 2rem;
   }
@@ -56,7 +41,6 @@ p {
 input {
   border-radius: 2px;
 }
-
 
 
 
